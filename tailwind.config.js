@@ -1,3 +1,5 @@
+import daisyui from 'daisyui';
+
 export default {
   content: [
     "./index.html",
@@ -10,5 +12,9 @@ export default {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/aspect-ratio'),
+    require('daisyui'),
   ],
+  daisyui: {
+    themes: ["dark", "cupcake"], // Set default themes here
+  },
 };
